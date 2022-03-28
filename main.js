@@ -26,7 +26,7 @@ const servers = {
 };
 
 // Global State
-const pc = new RTCPeerConnection(servers);
+const pc = new webkitRTCPeerConnection(servers);
 let localStream = null;
 let remoteStream = null;
 
