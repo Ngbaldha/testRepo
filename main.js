@@ -1,8 +1,7 @@
-
+import express
 import firebase from 'firebase/app';
 import 'firebase/firestore';
 
-const express = require('express');
 const PORT = process.env.PORT || 5000  
 
 express()
