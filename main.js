@@ -1,11 +1,6 @@
-import express
 import firebase from 'firebase/app';
 import 'firebase/firestore';
 
-const PORT = process.env.PORT || 5000  
-
-express()
-  .listen(PORT, () => console.log(`Listening on ${ PORT }`))
 
 const firebaseConfig = {
   apiKey: "AIzaSyDENdmQvW8K23AUrSN8gR4ACLKTFRzDN9w",
