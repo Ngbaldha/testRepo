@@ -1,5 +1,12 @@
+
 import firebase from 'firebase/app';
 import 'firebase/firestore';
+
+const express = require('express')
+const PORT = process.env.PORT || 5000  # Fall back to port 5000 if process.env.PORT is not set
+
+express()
+  .listen(PORT, () => console.log(`Listening on ${ PORT }`))
 
 const firebaseConfig = {
   apiKey: "AIzaSyDENdmQvW8K23AUrSN8gR4ACLKTFRzDN9w",
